@@ -1,0 +1,40 @@
+body{
+    background-image: url(https://graphicriver.img.customer.envatousercontent.com/files/86232890/Calculator%20a%20background590.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=118c4613229b3fd26e5834b0f5d44ff5);
+}
+h1{
+    flex-wrap: wrap;
+    margin-left: 650px;/* justify-content: center; */
+    display: flex;
+    font-size: 50px;
+    color: darkblue;
+}
+.calculator{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 500px;
+   margin-left: 30%;
+
+}
+
+#display{
+    margin: 10px;
+    width: 94%;
+    font-size: 40px;
+
+}
+.cal_switch{
+    width: 120px;
+    height: 70px;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 5px;
+    background-color: gainsboro;
+    cursor: pointer;
+    font-size: 25px;
+}
+.cal_button{
+    margin: 20px;
+    display: flex;
+    justify-content:center ;
+    flex-wrap: wrap;
+}
